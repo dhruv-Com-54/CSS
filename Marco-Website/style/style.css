@@ -1,0 +1,682 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;    
+}
+
+.togle{
+    display: none;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.t-white{
+    color: white;
+}
+
+.mt-1{
+    margin-left: 30px;
+}
+
+.background-image{
+    background-image: url(../image/hero-bg.jpg);
+    height: 714px;
+    width: 100%;
+    background-size: cover;
+    background-position:bottom;
+}
+
+.logo img{
+    margin-top: 20px;
+}
+
+.nav-bar{
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    margin-top: 20px; 
+    height: 66px;
+    padding-left: 295px;
+    font-family: 'poppins',sans-serif;
+}
+
+.nav-link {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: #f42f2c;
+}
+
+.nav-bar li a{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.nav-bar li .nav-link{
+    padding-left: 30px;
+    padding: 18px 15px 20px;
+}
+
+.dropdown-menu{
+    background-color: white;
+    height: 60px;
+    width: 210px;
+    position: absolute;
+    left: 630px;
+    padding-left:25px;
+    display: none;
+}
+
+.dropdown-menu ul li a{
+    color: #333;
+    font-weight:bold;
+}
+
+.dropdown-menu-2{
+    background-color:white;
+    height: 60px;
+    width: 190px;
+    position: absolute;
+    left: 725px;
+    padding-left:25px;
+    display:none;
+}
+
+.dropdown-menu-2 ul li a{
+    color: #333;
+    font-weight:bold;
+}
+
+.heading p{ 
+    margin-top: 80px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 2px;
+}
+
+.heading h1{
+    font-size: 60px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 20px;
+}
+
+.heading span{
+    display: block;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    width: 480px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.CHECK-OUR-MENU-btn{
+    background-color: #f42f2c;
+    border: none;
+    height: 42px;
+    width: 184px;
+    transition: 0.9s;
+    margin-top: 25px;
+}
+
+.CHECK-OUR-MENU-btn:hover{
+    background: #222;
+}
+
+.CHECK-OUR-MENU-btn a{
+    text-decoration: none;
+}
+
+.about-us-img{
+    float: right;
+    margin-right: 1px;
+    margin-top: 100px;
+    height: 390px;
+}
+
+.about-us-text p{
+    padding-top: 200px;
+    font-size: 36px;
+    font-family: 'poppins',sans-serif;
+    color: #222222;
+    font-weight: bold;
+    
+}
+
+.about-us-text span{
+    display: block;
+    margin-top: 20px;
+    word-spacing: 2px;
+    width: 465px;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    line-height: 22px;
+    opacity: 0.8;
+}
+
+.View-full-menu-btn {
+    background-color: #f42f2c;
+    border: none;
+    height: 42px;
+    width: 184px;
+    transition: 0.9s;
+    margin-top: 25px;
+}
+
+.View-full-menu-btn:hover {
+    box-shadow: #f42f2c;
+}
+
+.View-full-menu-btn a {
+    text-decoration: none;
+}
+
+.background-color-type-of-food {
+    background-color: #F9F9FF;
+    height:1050px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.type-of-food-heading li p{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: 'poppins',sans-serif;
+    color: #222222;
+    font-weight: bold;
+}
+
+.type-of-food-heading span{
+    display: flex;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    color: #777777;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.type-of-food-name {
+    margin-left: 250px;
+}
+
+.All-Menu ,.All-Menu-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 102px;
+    width:194px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    background-color: #f42f2c;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+} 
+
+.All-Menu-2 a{
+    text-decoration: none;
+}
+
+.Breakfaast ,.Breakfaast-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 102px;
+    width:215px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+} 
+
+.All-Menu li a ,.All-Menu li a{
+    text-decoration: none;
+}
+
+.Breakfaast li a ,.Lunch li a ,.Dinner li a ,.Budget-Meal li a ,.Buffet li a ,.Breakfaast-2 li a ,.Lunch-2 li a ,.Dinner-2 li a ,.Budget-Meal-2 li a ,.Buffet-2 li a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.Lunch ,.Lunch-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 102px;
+    width:137px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+}
+
+.Dinner ,.Dinner-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 102px;
+    width:149px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+} 
+
+.Budget-Meal ,.Budget-Meal-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 102px;
+    width:285px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+} 
+
+.Buffet ,.Buffet-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 102px;
+    width:131px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+} 
+
+.Cappuccion-box ,.Americano-box ,.Macchiato-box ,.Mocha-box ,.Piccolo-Latte-box ,.Ristretto-box{
+    height: 142px;
+    width: 540px;
+    background-color: white;
+    margin-top: 80px;
+    border-radius:10px ;
+}
+
+.Cappuccion-box p ,.Americano-box p ,.Macchiato-box p ,.Mocha-box p ,.Piccolo-Latte-box p ,.Ristretto-box p{
+    padding-top: 35px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+}
+
+.Cappuccion-box h3 ,.Americano-box h3 ,.Macchiato-box h3 ,.Mocha-box h3 ,.Piccolo-Latte-box h3 ,.Ristretto-box h3{
+    margin-top: 35px;
+    margin-left: 330px;
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    color:#f42f2c ;
+    font-weight: bold;
+}
+
+.Cappuccion-box span ,.Americano-box span ,.Macchiato-box span ,.Mocha-box span ,.Piccolo-Latte-box span ,.Ristretto-box span{
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 360px;
+    font-family: 'poppins',sans-serif;
+    font-size: 14px;
+    color: #777777;
+    line-height: 25px;
+}
+
+.Macchiato-box{
+    margin-top: 18px;
+}
+
+.background-image-form{
+    background-image: url(../image/reservation-bg.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+.background-image-form p{
+    padding-top: 20px;
+    background: rgba(17,22,24,0.75);
+    background-image:initial;
+}
+
+.Customer-Gallery p{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: 'poppins',sans-serif;
+    color: #222222;
+    font-weight: bold;
+}
+
+.Customer-Gallery span{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    color: #777777;
+}
+
+.menu-image {
+    margin-top: 60px;
+}   
+
+.Chery{
+    margin-left: 25px;
+}
+
+.Burgery{
+    margin-left: 25px;
+}
+
+.menu-image-2 :nth-child(1){
+    margin-top: -95px;
+}
+
+.menu-image-2 :nth-child(2){
+    margin-left: 25px;
+    margin-top: 30px;
+
+}
+
+.menu-image-2 :nth-child(3){
+    margin-left: 25px;
+    margin-top: -95px;
+}
+
+.background-image-review{
+    background-image: url(../image/review-bg.jpg) ;
+    height: 500px;
+    width: 100%;
+    background-position-y: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+.Review img{
+    margin-top: 130px;
+}
+
+.Review-text{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    color: #222222;
+}
+
+.Review-text-2 i{
+    margin-top: 10px;
+}
+
+.Review-text-2 :nth-child(1){
+    color:#ffc000 ; 
+}
+
+.Review-text-2 :nth-child(2){
+    color:#ffc000 ; 
+}
+
+.Review-text-2 :nth-child(3){
+    color:#ffc000 ; 
+}
+
+.Review-text-2 :nth-child(4){
+    color:#ffc000 ; 
+}
+
+.Review-text-3 p{
+    width: 500px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    color: #777777;
+    text-align: center;
+    line-height: 24px;
+    opacity: 0.8;
+}   
+
+.blog-heading p{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: 'poppins',sans-serif;
+    color: #222222;
+}
+
+.blog-heading-2{
+    display: block;
+    width: 650px;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    color: #777777;
+    margin-left: 230px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-1{
+    margin-top: 100px;
+}
+
+
+.image-1 span{
+    background-color: #000;
+    color: #fff;
+    font-weight: 100;
+    padding: 2px 15px;
+    width: 115px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-1 p {
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    color: #222222;
+    width: 230px;
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+.image-1 p:hover{
+    color: #f42f2c;
+}
+
+.image-1 h3{
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    color: #777777;
+    margin-top: 10px;
+}
+
+.fa-heart{
+    margin-top: 10px;
+}
+
+.image-1 h5{
+    margin-left: 5px;
+    color: #777777;
+    margin-top: 10px;
+}
+
+.fa-comment{
+    display: block;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.image-1 h4{
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    color: #777777;
+    margin-top: 10px;
+}
+
+.footer-background-color{
+    background-color: #f42f2c;
+    height: 483px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.opening-hourse p{
+    padding-top: 150px;
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+}
+
+.opening-hourse span{
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(238,238,238,0.3);
+}
+
+.timing :nth-child(2){
+    padding-left: 100px;
+}
+
+.timing-2 :nth-child(2){
+    padding-left: 135px;
+}
+
+.timing-3 :nth-child(2){
+    padding-left: 150px;
+}
+
+.Contact-Us p{
+    padding-top: 150px;
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+
+.Contact-Us span{
+    display: block;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 320px;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+}
+
+.Contact-Us h1{
+    margin-top: 15px;
+    font-size: 24px;
+    font-family: 'poppins',sans-serif;
+    margin-left: 25px;    
+}
+
+.Newsletter p{
+    padding-top: 150px;
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.Newsletter span{
+    display: block;
+    margin-top: 18px;
+    width: 320px;
+    margin-left: 45px;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    line-height: 25px;
+}
+
+.Newsletter input{
+    width: 320px;
+    height: 33.1px;
+    margin-left:45px;
+    margin-top: 20px;
+    border-radius: 100px;
+    padding-left: 20px;
+    border: none;
+}
+
+.fa-right{
+    display: block;
+    color:black;        
+}
+
+.Copyright-1{
+    background-color: #222222;
+    height: 65px;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    padding-top: 22px;
+    padding-left: 200px;
+}
+
+.social-media {
+    display: block;
+    font-size: 20px;
+    margin-left: 250px;
+}
+
+.social-media i{
+    padding-left: 50px;
+    height: 35px;
+    width: 35px;
+    color: white;
+}

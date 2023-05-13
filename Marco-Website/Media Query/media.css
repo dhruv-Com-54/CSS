@@ -1,0 +1,306 @@
+@media (max-width:768px){
+.container{
+    display: block;
+    max-width: max-content;
+}
+.togle{
+    display: block;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+.nav-bar{
+    float: none;
+    overflow: hidden;
+}
+
+.nav-bar .nav-link{
+    display: none;
+}
+
+.heading p{ 
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 2px;
+}
+
+.heading h1{
+    font-size: 40px;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.heading span{
+    display: block;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    width: 480px;
+    line-height: 28px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.CHECK-OUR-MENU-btn{
+    background-color: #f42f2c;
+    border: none;
+    height: 42px;   
+    width: 200px;
+    transition: 0.9s;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.about-us-text p{
+    font-size: 36px;
+    font-family: 'poppins',sans-serif;
+    color: #222222;
+    font-weight: bold;
+}
+
+.about-us-text span{
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+    word-spacing: 2px;
+    width: 465px;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    line-height: 22px;
+    opacity: 0.8;
+}
+
+.View-full-menu-btn {
+    background-color: #f42f2c;
+    border: none;
+    height: 42px;
+    width: 184px;
+    transition: 0.9s;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.type-of-food-heading li p{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: 'poppins',sans-serif;
+    color: #222222;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.type-of-food-heading span{
+    display: flex;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    color: #777777;
+    margin-top: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.all-food{
+    margin-left: 10px;
+}
+
+.All-Menu ,.All-Menu-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 46px;
+    width:92px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 10px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    background-color: #f42f2c;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+} 
+
+.Breakfaast ,.Breakfaast-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 47px;
+    width:102px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 10px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+} 
+
+.Lunch ,.Lunch-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 47px;
+    width:65px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 10px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+}
+
+.Dinner ,.Dinner-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 46px;
+    width:70px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 10px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+}
+
+.Budget-Meal ,.Budget-Meal-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 46px;
+    width:135px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 10px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+}
+
+.Buffet ,.Buffet-2{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 46px;
+    width:62px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: 10px;
+    box-shadow: 2px 2px 5px black ; 
+    border: none;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+} 
+
+.all-food-1{
+    display: block;
+}
+
+.background-image-form {
+    margin-top: 500px;
+}
+
+.Cappuccion-box ,.Macchiato-box{
+    margin-left: 10px;
+}
+
+.Americano-box ,.Piccolo-Latte-box,.Ristretto-box{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.background-color-type-of-food {
+    background-color: #F9F9FF;
+    height:1500px;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.all-fod-3{
+    margin-left:10px;
+}
+
+.menu-image{
+    display: block;
+}
+
+.menu-image :nth-child(1){
+    padding-left: 25px;
+}
+
+.menu-image :nth-child(2){
+    padding-top:20px;
+    width: 350px;
+}
+
+.menu-image :nth-child(3){
+    padding-top:20px;
+    width: 350px;
+}
+
+.menu-image-2 :nth-child(1){
+    padding-top: 50px;
+    padding-left: 25px;
+    height: 350px;
+    width: 380px;
+}
+
+.menu-image-2 :nth-child(3){
+    margin-top: 30px;
+}
+
+.menu-image-2{
+    display: block;
+}
+
+.blog-heading-2 span{
+    display: block;
+    margin-top: 50px;
+    margin-left: -80px;
+    width:450px;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    color: #777777;
+    line-height: 23px;
+}
+
+.blog-image{
+    display: block;
+}
+
+.image-1{
+    margin-left: 200px;
+}
+
+.footer-background-color{
+    width: 100%;
+    background-color: #f42f2c;
+    height: 1000px;
+    /* display:block; */
+}
+
+.Contact-Us{
+    display: block;
+}
+
+}
